@@ -1,0 +1,63 @@
+<html>
+
+<style>
+a:outer-box{
+  width: 400px;
+  height: 400px;
+}
+a:inner-box{
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid grey;
+  position: relative;
+}
+
+a:float-box{
+  position: absolute;
+  background-color: white;
+  top: 11px;
+  left: 50px;
+}
+</style>
+
+<div style=" width: 400px;
+  height: 400px;"><section style="margin: 20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid grey;
+  position: relative;"></section><div>
+  <aside style="position: absolute;
+  background-color: white;
+  top: 11px;
+  left: 50px;"> Your Review :
+<br>
+<br>
+<a<br><p>How did you hear about us?
+<select name="search engine">
+  <option value="Google">Google</option>
+  <option value="Bing">Bing</option>
+  <option value="Yahoo">Yahoo</option>
+  <option value="Other">Other</option>
+</select>
+</p>
+<p> Would you visit again?</p>
+<form>
+  <input type="radio" name="visit" value="Yes" checked> Yes
+  <input type="radio" name="visit" value="No"> No
+  <input type="radio" name="visit" value="Maybe"> Maybe 
+</form> 
+<p> Comments: </p>
+<form action="action_page.php">
+  <textarea name="message" rows="5%" cols="25%"></textarea>
+  <br>
+
+<form action="">
+<input type="checkbox" name="vehicle" value="Bike">Sign me up for email updates
+</form>
+  <input type="submit" value="Submit Review">
+</form> </a>
+
+</aside>
+
+</html>
